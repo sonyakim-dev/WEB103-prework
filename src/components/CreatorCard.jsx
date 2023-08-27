@@ -31,7 +31,6 @@ export default function CreatorCard({ creator }) {
       <CardActions>
         <Link to={`detail/${creator.id}`}>Detail</Link>
         <Link to={`edit/${creator.id}`}>Edit</Link>
-        <Button>Delete</Button>
       </CardActions>
     </Card>
   );

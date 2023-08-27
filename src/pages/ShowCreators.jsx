@@ -21,7 +21,7 @@ export default function ShowCreators() {
   return (
     <div className="flex gap-2 flex-wrap">
       {creators.map((creator) => {
-        return <CreatorCard creator={creator} />;
+        return <CreatorCard key={creator.id} creator={creator} />;
       })}
     </div>
   );
