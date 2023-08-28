@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='./ezgif.com-video-to-gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./Screen Recording.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ... Ezgif
 
