@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 export default function CreatorCard({ creator }) {
   return (
-    <Card sx={{ width: 345, padding: "10px" }}>
+    <Card sx={{ width: 300, padding: "10px" }}>
       <Avatar
         alt="Remy Sharp"
         src={creator.imageURL}
@@ -23,9 +23,6 @@ export default function CreatorCard({ creator }) {
           <a href={`https://www.instagram.com/${creator.url}`} target="_blank">
             @{creator.url}
           </a>
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {creator.description}
         </Typography>
       </CardContent>
       <CardActions>
