@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import supabase from "../client";
 
 export default function DetailCard({ creator }) {
@@ -45,6 +45,7 @@ export default function DetailCard({ creator }) {
           </Typography>
         </CardContent>
         <CardActions>
+          <Link to={`/edit/${id}`}>Edit</Link>
           <Button onClick={handleDelete}>Delete</Button>
         </CardActions>
       </Card>

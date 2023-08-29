@@ -32,7 +32,7 @@ export default function EditCreator() {
     } catch (error) {
       console.log(error);
     }
-    window.location = "/";
+    window.location = `/detail/${id}`;
   };
 
   const fetchCreator = async () => {

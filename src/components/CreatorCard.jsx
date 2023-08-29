@@ -27,7 +27,6 @@ export default function CreatorCard({ creator }) {
       </CardContent>
       <CardActions>
         <Link to={`detail/${creator.id}`}>Detail</Link>
-        <Link to={`edit/${creator.id}`}>Edit</Link>
       </CardActions>
     </Card>
   );
